@@ -1,16 +1,43 @@
-# React + Vite
+# Machine Coding(Tab-Form)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="./src/assets/tabFormMCScreenShot.PNG" />
 
-Currently, two official plugins are available:
+# Project Overview:
+### Requirements : 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The problem statement included three tabs: Profile, Interest, setting with the specific field requirement like: 
 
-## React Compiler
+Age Field : Only allowed numeric value 
+Email Field : Validation to ensure the correct format
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I had to incorporate dropdowns , radio buttons, checkboxes and implement : 
 
-## Expanding the ESLint configuration
+1. Validation for mandetory fields.
+2. Data persistend accross tabs.
+3. A Submit button that submitted the form appear only on the last tabs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This coding challenges not only tested my coding skills on React js but also led to a discussion on scalibilty and  maintainibilty.
+
+Create a form configuration object to dynamically generate the form, sparking a discussion about. 
+
+<h4>Scalibility</h4> - how easily the form could be extended or modified without rewriting significant portion of code 
+
+<h4>Maintanibility</h4> - how moduler, readable and organized code is crucial for large team and long term project
+
+
+
+## Setup & Environment Instructions
+### Clone Repository : 
+```js
+git clone https://github.com/rudra0700/Machine-Coding
+cd Tab-Form
+```
+
+### Install Dependencies : 
+```js
+npm install
+```
+
+#### Live Link : https://tabform1.netlify.app
+
+
