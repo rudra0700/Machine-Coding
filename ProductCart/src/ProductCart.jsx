@@ -13,7 +13,9 @@ const ProductCart = () => {
     : ORIGINAL_PRICE;
 
   const handleCouponApply = () => {
-    if (couponCode.trim()) {
+    if (!couponCode.trim() || couponCode !== "Rudra") {
+      return alert("Coupon code is not valid");
+    } else {
       setIsAppliedCoupon(true);
       setPurchaseComplete(false);
     }
